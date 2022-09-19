@@ -9,6 +9,9 @@ function App() {
         <p>
           Welcome to web development fall 2022
         </p>
+        <p>
+          This is A2
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
