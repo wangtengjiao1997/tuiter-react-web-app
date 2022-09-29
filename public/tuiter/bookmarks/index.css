@@ -1,0 +1,143 @@
+body{
+    font-family: "Arial";
+    background-color: black;
+    color: white;
+    width: 650px;
+    position: relative;
+    margin:auto
+}
+
+.wd-float-left{
+    float:left;
+}
+
+.wd-float-right{
+    float: right;
+}
+
+.wd-dotsymbol{
+    float:right;
+    margin-right: 20px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-dotsymbol-blue{
+    float:right;
+    margin-right: 20px;
+    color: rgb(29,161,242);
+    margin-top: 30px;
+}
+
+.wd-div-border{
+    border: solid 1px rgb(47, 51, 54);
+    margin-left: 20px;
+}
+
+.wd-float-left h1{
+    color: white;
+    font-size: 15px;
+    padding-left: 16px;
+    padding-top: 12px;
+}
+
+.wd-float-left h2{
+    padding-left: 16px;
+    padding-top: 12px;
+    font-size: 20px;
+}
+
+.wd-float-left h3{
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+    padding-left: 16px;
+    padding-top: 12px;
+}
+
+.wd-h1{
+    padding-left: 16px;
+    padding-top: 12px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.wd-h2{
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+    padding-left: 16px;
+    margin-top: 10px;
+}
+
+.wd-float-left span{
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+    padding-left: 16px;
+    padding-top: 12px;
+}
+.wd-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
+    display:inline-block;
+    vertical-align:middle;
+    margin-left: 16px;
+    margin-top: 12px;
+}
+.wd-img img{
+    width:100%;
+}
+
+.wd-content{
+    width: 506px;
+}
+.wd-content p{
+    font-size: 15px;
+    width: 506px;
+    margin-left: 16px;
+    margin-bottom: 12px;
+}
+.wd-div-img{
+    width: 504px;
+    margin-left: 79px;
+    border-radius: 20px;
+    border: solid 1px rgb(47, 51, 54);
+}
+.wd-div-img img{
+    width:504px;
+    height: 264px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: solid 1px rgb(47, 51, 54);
+}
+.float-done {
+    clear: both;
+}
+.wd-div-img div{
+    padding:12px;
+}
+.wd-p1{
+    font-size: 15px;
+}
+.wd-p2{
+    font-size: 15px;
+    color: rgb(110, 118, 125) ;
+}
+.wd-icons{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 79px;
+    display: inline-block;
+}
+.wd-number{
+    margin-left: 12px;
+}
+.wd-icon{
+    margin-right: 80px;
+}
+.wd-icons a{
+    text-decoration:none;
+    color: white;
+}
+.wd-red{
+    color: red;
+}
