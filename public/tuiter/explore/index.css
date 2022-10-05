@@ -1,6 +1,6 @@
+/*
 .wd-input{
     position: center;
-    width: 650px;
     margin-left: 40px;
     height: 20px;
     background-color: darkgray;
@@ -25,26 +25,26 @@
     margin-right: 12px;
     float:right;
 }
-
+*/
 .wd-div-border{
     border: solid 1px rgb(47, 51, 54);
-    margin-left: 20px;
-    padding-left: 20px;
+}
+
+.wd-div-border-top{
+    border-top: solid 1px rgb(47, 51, 54);
+}
+
+.background_dark{
+    background-color: #1a1a1a;
 }
 body{
     font-family: "Arial";
     background-color: black;
     color: white;
-    position: relative;
-    margin:auto;
-    width: 800px;
-    border_bottom:solid 1px rgb(47, 51, 54) ;
-    margin-bottom: 10px;
 }
 
 .wd-nav-tags{
     color: rgb(110, 118, 125);
-    position: relative;
     white-space: nowrap;
     font-weight:bold;
 }
@@ -52,7 +52,6 @@ body{
 .wd-nav-tags li{
     list-style-type: none;
     display: inline-block;
-    width:90px;
 }
 
 .wd-nav-tags li a{
@@ -64,7 +63,7 @@ body{
 
 .wd-nav-tags .wd-selected{
     style-type: none;
-    padding-bottom: 10px ;
+    padding-bottom: 2px ;
     border-bottom: solid 3px rgb(29, 161, 242);
     color: rgb(29, 161, 242);
 }
@@ -73,12 +72,16 @@ body{
     font-size: 13px;
     color: rgb(110, 118, 125);
 }
-.wd-div-border-author h3{
+.wd-div-border h1{
+    font-size: 16px;
     color: white;
-    font-size: 13px;
+}
+.background_blue{
+    background-color: rgb(29, 161, 242);
+    color: white;
 }
 .wd-div-authorAndtitle{
-    width: 60%;
+    width: 50%;
     float:left;
 }
 .wd-div-image{
@@ -98,6 +101,25 @@ body{
     float:right;
     margin-right: 20px;
     color: rgb(110, 118, 125);
+}
+.wd-wordonimage{
+    position:relative;
+    bottom:50px;
+    left: 10px;
+    height: 0px;
+}
+.wd-a-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.wd-rightbar h3{
+    font-size: 10px;
+    color: rgb(110, 118, 125);
+}
+.wd-rightbar h1{
+    font-size: 10px;
+    color: white;
 }
 .float-done {
     clear: both;
