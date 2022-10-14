@@ -1,162 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+
     <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../../vendors/bootswatch/bootstrap.min.css" rel="stylesheet"/>
     <link href="index.css" rel="stylesheet"/>
     <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+            integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+            crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>Explore screen</title>
 </head>
 <body>
 
-<div class="container justify-content-center">
-    <div class="row ms-2 mb-2 me-2">
-        <div class="list-group col-xxl-2 col-xl-2 col-lg-1 col-md-2 col-sm-2 t-3 ">
-            <a href="#" class="list-group-item bg-black text-white"><i class="fa fa-solid fa-text-height me-3 col-1" aria-hidden="true"></i></a>
-            <a href="#" class="list-group-item bg-black text-white"><i class="fa fa-home me-3 col-1" aria-hidden="true"></i><span class="col-10 d-none d-xl-inline">Home</span></a>
-            <a href="#" class="list-group-item bg-dark text-white"><i class="fa fa-hashtag me-3 col-1" aria-hidden="true"></i><span class="col-10 d-none d-xl-inline">Explore</span></a>
-            <a href="#" class="list-group-item bg-black text-white"><i class="fa fa-bell me-3 col-1" aria-hidden="true"></i><span class="col-10 d-none d-xl-inline">Notification</span></a>
-            <a href="#" class="list-group-item bg-black text-white"><i class="fa fa-envelope me-3 col-1" aria-hidden="true"></i><span class="col-10 d-none d-xl-inline">Message</span></a>
-            <a href="#" class="list-group-item bg-black text-white"><i class="fa fa-bookmark me-3 col-1" aria-hidden="true"></i><span class="col-10 d-none d-xl-inline">Bookmark</span></a>
-            <a href="#" class="list-group-item bg-black text-white"><i class="fa fa-list me-3 col-1" aria-hidden="true"></i><span class="col-10 d-none d-xl-inline">Lists</span></a>
-            <a href="#" class="list-group-item bg-black text-white"><i class="fa fa-user me-3 col-1" aria-hidden="true"></i><span class="col-10 d-none d-xl-inline">Profile</span></a>
-            <a href="#" class="list-group-item bg-black text-white"><i class="fa fa-ellipsis-h me-3 col-1" aria-hidden="true"></i><span class="col-10 d-none d-xl-inline">More</span></a>
-            <button class="rounded-pill background_blue">Tuite</button>
-        </div>
-        <div class="col-xxl-7 col-xl-6 col-lg-8 col-md-10 col-sm-10">
-            <div class=" wd-div-border pt-3 ps-0 pe-0 ms-4 me-4">
-                <div id="Search_row" class="row ms-2">
-                    <div class="input-group rounded-pill col">
-                        <span class="input-group-text bg-dark" id="basic-addon1"><i class="fa fs-6 fa-search text-white"></i></span>
-                        <input type="text" class="form-control bg-dark" placeholder="Search Tuiter" >
-                    </div>
-                    <div class="col-1 d-flex align-items-center me-4">
-                        <a href="#">
-                            <i class="fa fs-3 fa-cog text-white"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div id="nav_bar" class="wd-nav-tags">
-                        <ul class="list-inline ps-2">
-                            <li class="wd-selected col" >
-                                <a class="nav-link active flex-row" href="for-you.html">For you</a>
-                            </li>
-                            <li class="col">
-                                <a class="nav-link flex-row" href="trending.html">Trending</a>
-                            </li>
-                            <li class="col">
-                                <a class="nav-link flex-row" href="news.html">News</a>
-                            </li>
-                            <li class="col">
-                                <a class="nav-link flex-row" href="sport.html">Sports</a>
-                            </li>
-                            <li class="col d-none d-md-inline-flex">
-                                <a class="nav-link flex-row" href="entertainment.html">Entertainment</a>
-                            </li>
-                        </ul>
-                </div>
-
-
-                <div id="main_content" class="mb-3">
-                    <div>
-                        <img src="../../images/6.jfif"
-                             class="card-img-top" alt="...">
-                        <h2 class="wd-wordonimage">SpaceX's starship</h2>
-                    </div>
-                    <div class="wd-div-border-top bg-black">
-                        <div class="wd-div-authorAndtitle m-3">
-                            <h3>Web Development</h3>
-                            <h1>ReactJS<span><i class="text-white ms-1 fa fa-check-circle"></i></span><span style ="color: rgb(110, 118, 125)"> -2h</span> </h1>
-                            <h1>React.js is a component based front end library that makes it very
-                            easy to build Single Page Applications or SPAs</h1>
-                        </div>
-                        <div class="wd-div-image">
-                            <img src="../../images/react.png">
-                        </div>
-                        <div class="float-done"></div>
-                    </div>
-                    <div class="wd-div-border-top bg-black">
-                        <div class="wd-div-authorAndtitle m-3">
-                            <h1>JavaScript<span><i class="text-white ms-1 fa fa-check-circle"></i></span><span style ="color: rgb(110, 118, 125)"> -2h</span> </h1>
-                            <h1>JavaScript is programming language that can tun on browsers as well as desktops</h1>
-                            <h3>123K Tweets</h3>
-                        </div>
-                        <div class="wd-div-image">
-                            <img src="../../images/js.png">
-                        </div>
-                        <div class="float-done"></div>
-                    </div>
-                    <div class="wd-div-border-top bg-black">
-                        <div class="wd-div-authorAndtitle m-3">
-                            <h3>Web Development</h3>
-                            <h1>jQuery</h1>
-                            <h3>123k Tweets</h3>
-                        </div>
-                        <div class="wd-div-image">
-                            <img src="../../images/jq.png">
-                        </div>
-                        <div class="float-done"></div>
-                    </div>
-                    <div class="wd-div-border-top bg-black">
-                        <div class="wd-div-authorAndtitle m-3">
-                            <h3>Web Development</h3>
-                            <h1>NodeJS<span><i class="text-white ms-1 fa fa-check-circle"></i></span></h1>
-                            <h3>123K Tweets</h3>
-                        </div>
-                        <div class="wd-div-image">
-                            <img src="../../images/node.png">
-                        </div>
-                        <div class="float-done"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="list-group col-xxl-3 col-xl-3 col-lg-3 mt-3 d-none d-lg-inline">
-            <ul class="list-group">
-                <li class="list-group-item background_dark text-white">Who to follow</li>
-                <li class="list-group-item background_dark">
-                    <div class="row">
-                        <div class="col-2 me-2">
-                            <img class="wd-a-img" src="../../images/java.png">
-                        </div>
-                        <div class="col-6 wd-rightbar"><h1>Java</h1>
-                        <h3>@Java</h3></div>
-                        <div class="col-3">
-                            <button class="btn btn-primary float-end rounded-pill">Follow</button>
-                        </div>
-                    </div>
-                </li>
-                <li class="list-group-item background_dark">
-                    <div class="row">
-                        <div class="col-2 me-2">
-                            <img class="wd-a-img" src="../../images/tesla.png">
-                        </div>
-                        <div class="col-6 wd-rightbar"><h1>Tesla<span><i class="text-white ms-1 fa fa-check-circle"></i></span></h1>
-                            <h3>@Tesla</h3></div>
-                        <div class="col-3">
-                            <button class="btn btn-primary float-end rounded-pill">Follow</button>
-                        </div>
-                    </div>
-                </li>
-                <li class="list-group-item background_dark">
-                    <div class="row">
-                        <div class="col-2 me-2">
-                            <img class="wd-a-img" src="../../images/NASA.png">
-                        </div>
-                        <div class="col-6 wd-rightbar"><h1>NASA<span><i class="text-white ms-1 fa fa-check-circle"></i></span></h1>
-                            <h3>@NASA</h3></div>
-                        <div class="col-3">
-                            <button class="btn btn-primary float-end rounded-pill">Follow</button>
-                        </div>
-                    </div>
-                </li>
-
-            </ul>
-
-        </div>
-    </div>
-</div>
+<div class="container" id="wd-explore"></div>
+<script src="./index.js" type="module"></script>
 
 </body>
 </html>

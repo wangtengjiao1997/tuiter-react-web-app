@@ -33,6 +33,9 @@
 .wd-div-border-top{
     border-top: solid 1px rgb(47, 51, 54);
 }
+.wd-div-border-bottom{
+    border-bottom: solid 1px rgb(47, 51, 54);
+}
 
 .background_dark{
     background-color: #1a1a1a;
@@ -80,6 +83,9 @@ body{
     background-color: rgb(29, 161, 242);
     color: white;
 }
+.wd-color-gray{
+    color:rgb(110, 118, 125);
+}
 .wd-div-authorAndtitle{
     width: 50%;
     float:left;
@@ -97,6 +103,14 @@ body{
     float:right;
     border-right: 16px;
 }
+.wd-div-img img{
+    width:504px;
+    height: 264px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: solid 1px rgb(47, 51, 54);
+}
+
 .wd-dotsymbol{
     float:right;
     margin-right: 20px;
