@@ -9,7 +9,7 @@ const PostItem = (
         <div className="container">
             <div className="row mb-3 wd-div-border-bottom">
                 <div className=" col-1 ms-3">
-                    <img className="wd-a-img" src={`${post.avator}`}/>
+                    <img className="wd-a-img" src={`${post.avator}`} alt={"..."}/>
                 </div>
                 <div className="ms-3 col-10">
                     <div id="name-title" className="mb-3">
