@@ -32,19 +32,19 @@ const PostItem = (
 
                     <div className="wd-icons wd-nav-tags">
                         <ul className="list-inline">
-                            <li className="col flex-row "><a href="#"
+                            <li className="col flex-row "><a href="/tuiter/home"
                                                              className="text-decoration-none "><i
                                 className="fa fa-comment-o wd-color-gray"></i><span
                                 className="wd-color-gray ms-1">{post.comment}</span></a></li>
-                            <li className="col flex-row "><a href="#"
+                            <li className="col flex-row "><a href="/tuiter/home"
                                                              className="text-decoration-none "><i
                                 className="fa fa-heart-o wd-color-gray"></i><span
                                 className="wd-color-gray ms-1">{post.like}</span></a></li>
-                            <li className="col flex-row "><a href="#"
+                            <li className="col flex-row "><a href="/tuiter/home"
                                                              className="text-decoration-none "><i
                                 className="fa fa-exchange wd-color-gray"></i><span
                                 className="wd-color-gray ms-1">{post.transfer}</span></a></li>
-                            <li className="col flex-row "><a href="#"
+                            <li className="col flex-row "><a href="/tuiter/home"
                                                              className="text-decoration-none "><i
                                 className="fa fa-download wd-color-gray"></i></a></li>
                         </ul>
