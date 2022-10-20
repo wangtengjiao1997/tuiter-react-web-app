@@ -1,3 +1,4 @@
+
 const NavigationSidebar = (active) => {
     let bg_home = "bg-black";
     let bg_explore = "bg-black";
