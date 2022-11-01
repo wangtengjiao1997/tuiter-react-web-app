@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import {useSelector} from "react-redux";
 import "./index.css";
 import {Link} from "react-router-dom";
@@ -20,10 +20,10 @@ const Profile = () =>{
             </div>
             <div>
                 <div>
-                    <img width={"100%"} height={"250px"} src={profile.image}></img>
+                    <img width={"100%"} height={"250px"} src={profile.image} alt={"..."}></img>
                 </div>
                 <div className={"ms-2 position-relative"} style={{"bottom":"40px"}}>
-                    <img className={"rounded-circle"} src={profile.avator} width={100}/>
+                    <img className={"rounded-circle"} src={profile.avator} width={100} alt={"..."}/>
                     <Link to={"/tuiter/edit-profile"}>
                         <button className={"rounded-pill position-absolute me-2 btn btn-outline-secondary"} style={{"right":"0px","bottom":"15px"}}>Edit profile</button>
                     </Link>

@@ -1,7 +1,6 @@
 import NavigationSidebar from "./navigation-sidebar";
 import WhoToFollowList from "./ who-to-follow-list/index";
 import ExploreComponent from "./explore/index";
-import Profile from "./profile/index";
 import {Routes, Route} from "react-router";
 
 import PostList from "./home";
