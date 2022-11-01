@@ -28,11 +28,9 @@ const TuitStats = (
     return(
         <div className="wd-icons wd-nav-tags">
             <ul className="list-inline row">
-                <li className="col flex-row "><a href="/tuiter/home"
-                                                 className="text-decoration-none "><i
+                <li className="col flex-row "><i
                     className="fa fa-comment-o wd-color-gray"></i><span
-                    className={`wd-color-gray ms-1`}>{post.comment}</span></a></li>
-
+                    className={`wd-color-gray ms-1`}>{post.comment}</span></li>
                 <li className="col flex-row ">
                     {
                         post.liked &&
@@ -48,13 +46,11 @@ const TuitStats = (
                     }
 
                 </li>
-                <li className="col flex-row "><a href="/tuiter/home"
-                                                 className="text-decoration-none "><i
+                <li className="col flex-row "><i
                     className="fa fa-exchange wd-color-gray"></i><span
-                    className={`wd-color-gray ms-1`}>{post.transfer}</span></a></li>
-                <li className="col flex-row "><a href="/tuiter/home"
-                                                 className="text-decoration-none "><i
-                    className="fa fa-download wd-color-gray"></i></a></li>
+                    className={`wd-color-gray ms-1`}>{post.transfer}</span></li>
+                <li className="col flex-row "><i
+                    className="fa fa-download wd-color-gray"></i></li>
             </ul>
         </div>
     )

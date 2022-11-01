@@ -12,9 +12,9 @@ const templateTuit = {
     "topic": "Space",
     "time": "2h",
     "liked": false,
-    "replies": 0,
-    "retuits": 0,
-    "likes": 0,
+    "comment": 0,
+    "transfer": 0,
+    "like": 0,
 }
 
 
