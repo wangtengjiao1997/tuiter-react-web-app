@@ -1,5 +1,5 @@
 .wd-div-border{
-    border: solid 1px rgb(47, 51, 54);
+    border:  solid 1px rgb(234, 234, 234);
 }
 
 .wd-div-border-top{
@@ -53,6 +53,11 @@
 .wd-color-gray{
     color:rgb(110, 118, 125);
 }
+.wd-color-red{
+    color: #e82e2e;
+}
+
+
 .wd-div-authorAndtitle{
     width: 50%;
     float:left;
@@ -100,7 +105,6 @@
 }
 .card h1{
     font-size: 10px;
-
 }
 .float-done {
     clear: both;

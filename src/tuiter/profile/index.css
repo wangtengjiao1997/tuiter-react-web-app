@@ -1,0 +1,17 @@
+.wd-lightgray{
+    color: rgb(234, 234, 234);
+}
+.wd-gray{
+    color: rgb(110, 118, 125);
+}
+
+.wd-div-border{
+    border: solid 1px rgb(234, 234, 234);
+}
+
+.wd-smallword{
+    font-size: 17px;
+}
+.wd-bigword{
+    font-size: 25px;
+}

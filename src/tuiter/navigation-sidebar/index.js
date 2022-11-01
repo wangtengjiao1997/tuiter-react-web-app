@@ -45,11 +45,11 @@ const NavigationSidebar = () => {
                 <i className="fa fa-list me-3 col-1" aria-hidden="true"></i><span
                 className="col-10 d-none d-xl-inline">Lists</span>
             </div>
-            <div className={`list-group-item
+            <Link to={"/tuiter/profile"} className={`list-group-item
                     ${active === 'profile'?'active':''}`}>
                 <i className="fa fa-user me-3 col-1" aria-hidden="true"></i><span
                 className="col-10 d-none d-xl-inline">Profile</span>
-            </div>
+            </Link>
             <div className={`list-group-item
                     ${active === 'more'?'active':''}`}>
                 <i className="fa fa-ellipsis-h me-3 col-1" aria-hidden="true"></i><span

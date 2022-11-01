@@ -1,16 +1,14 @@
 import React from "react";
-import PostItem from "./PostItem.js";
-import posts from './posts.json';
-
+import TuitsList from "../tuits/TuitsList";
+import WhatsHappening from "./whats-happening";
 const PostList = () =>{
     return(
         <div>
-        {
-            posts.map(post =>
-          <PostItem
-              key={post._id} post={post}/>)
-        }
+            <h4>Home</h4>
+            <WhatsHappening/>
+            <TuitsList/>
         </div>
-        );
+
+    );
     };
 export default PostList;
