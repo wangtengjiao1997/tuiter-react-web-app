@@ -8,9 +8,7 @@ import {findTuitsThunk}
 const PostList = () =>{
     const {tuits, loading} = useSelector(state => state.tuitsData)
     const dispatch = useDispatch();
-    useEffect(() => {
-        dispatch(findTuitsThunk())
-    }, [])
+    useEffect(() => {dispatch(findTuitsThunk())}, [dispatch])
 
     return(
         <div className={"wd-div-border"}>
