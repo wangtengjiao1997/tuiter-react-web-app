@@ -1,16 +1,16 @@
 import React from "react";
 import "../home/index.css";
 import {useDispatch} from "react-redux";
-import {likeTuit, unlikeTuit} from "./tuits-reducer";
-
+import {updateTuitThunk} from "../../services/tuits-thunks";
 const TuitStats = (
     {
         post
     }
     )=>{
+    const dispatch = useDispatch();
+    /*
     let color;
     let heart;
-    const dispatch = useDispatch();
     if(post.liked === true){
         color = "wd-color-red";
         heart = "fa-heart";
@@ -19,12 +19,20 @@ const TuitStats = (
         heart = "fa-heart-o";
     }
 
-    const Liketuits = (id) => {
-        dispatch(likeTuit(id));
+    const Liketuits = (post) => {
+        dispatch(updateTuitThunk({
+            ...post,
+            likes: post.likes + 1,
+            liked: true
+        }))
     }
-    const Unliketuits = (id) => {
-        dispatch(unlikeTuit(id));
-    }
+    const Unliketuits = (post) => {
+        dispatch(updateTuitThunk({
+            ...post,
+            likes: post.likes - 1,
+            liked: false
+        }))
+    }*/
     return(
         <div className="wd-icons wd-nav-tags">
             <ul className="list-inline row">
@@ -32,18 +40,18 @@ const TuitStats = (
                     className="fa fa-comment-o wd-color-gray"></i><span
                     className={`wd-color-gray ms-1`}>{post.comment}</span></li>
                 <li className="col flex-row ">
-                    {
-                        post.liked &&
-                        <i id={"like-icon"} className={`fa ${heart} ${color}`} onClick={() => Unliketuits(post._id)}>
-                            <label htmlFor={"like-icon"} className={`${color} ms-1`}style={{outline: "none"}}>{post.like}</label>
-                        </i>
-                    }
-                    {
-                        !post.liked &&
-                         <i id={"like-icon"} className={`fa ${heart} ${color}`} onClick={() => Liketuits(post._id)}>
-                             <label htmlFor={"like-icon"} className={`${color} ms-1`}style={{outline: "none"}}>{post.like}</label>
-                         </i>
-                    }
+                    <div>
+                        Likes: {post.likes}
+                        <i onClick={() => dispatch(updateTuitThunk({
+                           ...post,
+                           likes: post.likes + 1
+                       }))} className="bi bi-heart-fill me-2 text-danger ms-2"></i>
+                        <i onClick={() => dispatch(updateTuitThunk({
+                           ...post,
+                           likes: post.likes - 1
+                       }))} className="bi bi-hand-thumbs-down-fill me-2 text-danger"></i>
+                    </div>
+
 
                 </li>
                 <li className="col flex-row "><i
