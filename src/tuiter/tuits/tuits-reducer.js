@@ -12,6 +12,7 @@ const currentUser = {
     "userName": "SpaceX",
     "handle": "@spacex",
     "avator": "../../images/spacex.png",
+    "image": "tesla.jfif",
 };
 
 const templateTuit = {
@@ -22,6 +23,7 @@ const templateTuit = {
     "comment": 0,
     "transfer": 0,
     "likes": 0,
+    "title":"New tuit"
 }
 
 

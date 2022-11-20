@@ -11,6 +11,7 @@ const WhatsHappening = () => {
         "userName": "SpaceX",
         "handle": "@spacex",
         "avator": "../../images/spacex.png",
+        "image": "tesla.jfif",
     };
 
     const templateTuit = {
@@ -21,6 +22,7 @@ const WhatsHappening = () => {
         "comment": 0,
         "transfer": 0,
         "likes": 0,
+        "title":"New tuit"
     }
     const tuitClickHandler = () => {
         const newTuit = {
