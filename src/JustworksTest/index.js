@@ -51,6 +51,20 @@ function Justworktest() {
     return (
         <div className={"mt-5"}>
             <div>
+                <h3>
+                    1.Please make sure the file is CSV file
+                </h3>
+                <h3>
+                    2.The first column in CSV file is Customer ID
+                </h3>
+                <h3>
+                    3.The second column in CSV file is Date (eg. 05/15/2021)
+                </h3>
+                <h3>
+                    4.The third column in CSV file is Amount
+                </h3>
+            </div>
+            <div>
                 <input type="file" id="file" onChange={(event) => uploadhandler(event)}/>
             </div>
             <div>
