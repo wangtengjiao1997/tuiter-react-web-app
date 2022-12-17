@@ -12,7 +12,7 @@ function Justworktest() {
                 const valuesArray = [];
                 const map = new Map();
                 results.data.map((d) => {
-                    if (Object.values(d)[0] != ""){
+                    if (Object.values(d)[0] !== ""){
                         var id = Object.values(d)[0]
                         var date = Object.values(d)[1].split("/")[0]+"/"+Object.values(d)[1].split("/")[2]
                         var amount = Object.values(d)[2]
